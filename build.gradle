@@ -48,8 +48,9 @@ dependencyManagement {
 }
 
 dependencies {
+    api 'org.springframework.data:spring-data-mongodb'
     implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.springframework.data:spring-data-mongodb'
+
     implementation 'org.mongodb:mongodb-driver-sync'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
